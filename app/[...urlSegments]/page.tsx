@@ -5,8 +5,6 @@ import Layout from '@/components/layout/layout';
 import { Section } from '@/components/layout/section';
 import ClientPage from './client-page';
 
-export const revalidate = 300;
-
 export default async function Page({
   params,
 }: {
